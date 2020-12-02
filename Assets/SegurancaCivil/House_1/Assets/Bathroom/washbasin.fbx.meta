@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 84e8ef2235d038e49a0a84fc238689bc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: pCube152
+    100002: pCube153
+    100004: pCube155
+    100006: pCube156
+    100008: pCube157
+    100010: pCube158
+    100012: pCube159
+    100014: pCube162
+    100016: pCube164
+    100018: pCube165
+    100020: pCube166
+    100022: pCube168
+    100024: polySurface10
+    100026: polySurface14
+    100028: polySurface15
+    100030: polySurface16
+    100032: polySurface16 1
+    100034: polySurface18
+    100036: polySurface9
+    100038: transform10
+    100040: transform11
+    100042: transform12
+    100044: transform13
+    100046: transform17
+    100048: transform18
+    100050: transform19
+    100052: transform20
+    100054: transform21
+    100056: transform22
+    100058: transform25
+    100060: transform26
+    100062: transform27
+    100064: transform6
+    100066: transform7
+    100068: transform8
+    100070: transform9
+    100072: //RootNode
+    400000: pCube152
+    400002: pCube153
+    400004: pCube155
+    400006: pCube156
+    400008: pCube157
+    400010: pCube158
+    400012: pCube159
+    400014: pCube162
+    400016: pCube164
+    400018: pCube165
+    400020: pCube166
+    400022: pCube168
+    400024: polySurface10
+    400026: polySurface14
+    400028: polySurface15
+    400030: polySurface16
+    400032: polySurface16 1
+    400034: polySurface18
+    400036: polySurface9
+    400038: transform10
+    400040: transform11
+    400042: transform12
+    400044: transform13
+    400046: transform17
+    400048: transform18
+    400050: transform19
+    400052: transform20
+    400054: transform21
+    400056: transform22
+    400058: transform25
+    400060: transform26
+    400062: transform27
+    400064: transform6
+    400066: transform7
+    400068: transform8
+    400070: transform9
+    400072: //RootNode
+    2100000: Metal
+    2100002: lambert1
+    2300000: pCube168
+    3300000: pCube168
+    4300000: pCube168
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 88d877f1bcf9f2a4db5da2345d16dee7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 7e221c66393fb1f42ac94fdb65bd669b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: fc19ef1f9e2c78a47982315707074948
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Glass1
+    100004: Glass5
+    100006: Glass6
+    100008: Window10
+    100010: Window13
+    100012: Window14
+    100014: WindowBorder
+    100016: WindowBorder1
+    100018: WindowBorder2
+    100020: WindowBorder3
+    100022: WindowGrab
+    100024: WindowRail
+    400000: //RootNode
+    400002: Glass1
+    400004: Glass5
+    400006: Glass6
+    400008: Window10
+    400010: Window13
+    400012: Window14
+    400014: WindowBorder
+    400016: WindowBorder1
+    400018: WindowBorder2
+    400020: WindowBorder3
+    400022: WindowGrab
+    400024: WindowRail
+    2100000: lambert1
+    2100002: M_Marble
+    2300000: Glass1
+    2300002: Glass5
+    2300004: Glass6
+    2300006: Window10
+    2300008: Window13
+    2300010: Window14
+    2300012: WindowBorder
+    2300014: WindowBorder1
+    2300016: WindowBorder2
+    2300018: WindowBorder3
+    2300020: WindowGrab
+    2300022: WindowRail
+    3300000: Glass1
+    3300002: Glass5
+    3300004: Glass6
+    3300006: Window10
+    3300008: Window13
+    3300010: Window14
+    3300012: WindowBorder
+    3300014: WindowBorder1
+    3300016: WindowBorder2
+    3300018: WindowBorder3
+    3300020: WindowGrab
+    3300022: WindowRail
+    4300000: WindowBorder
+    4300002: WindowBorder1
+    4300004: WindowBorder2
+    4300006: WindowBorder3
+    4300008: WindowGrab
+    4300010: Glass1
+    4300012: WindowRail
+    4300014: Window10
+    4300016: Glass5
+    4300018: Window13
+    4300020: Window14
+    4300022: Glass6
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Marble
+    second: {fileID: 2100000, guid: eac74fffd5ad32440b1b5d7e43f48d6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 62346e9d69f6555448ea3a7570c38e22, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

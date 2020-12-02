@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 776dd3ac6c7c53b4584ef8522ddb4993
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Balcony
+    100002: //RootNode
+    100004: BotDrawers
+    100006: BotDrawers1
+    100008: BotFurnitureDoor
+    100010: BotFurnitureDoor1
+    100012: BotFurnitureDoor2
+    100014: BotFurnitureDoor3
+    100016: BotFurnitureDoor4
+    100018: BotFurnitureDoor5
+    100020: FurnitureBotDoors
+    100022: MarbleBalcony
+    400000: //RootNode
+    400002: Balcony
+    400004: BotDrawers
+    400006: BotDrawers1
+    400008: BotFurnitureDoor
+    400010: BotFurnitureDoor1
+    400012: BotFurnitureDoor2
+    400014: BotFurnitureDoor3
+    400016: BotFurnitureDoor4
+    400018: BotFurnitureDoor5
+    400020: FurnitureBotDoors
+    400022: MarbleBalcony
+    2100000: lambert4
+    2100002: lambert5
+    2100004: lambert1
+    2300000: Balcony
+    2300002: BotDrawers
+    2300004: BotDrawers1
+    2300006: BotFurnitureDoor
+    2300008: BotFurnitureDoor1
+    2300010: BotFurnitureDoor2
+    2300012: BotFurnitureDoor3
+    2300014: BotFurnitureDoor4
+    2300016: BotFurnitureDoor5
+    2300018: MarbleBalcony
+    3300000: Balcony
+    3300002: BotDrawers
+    3300004: BotDrawers1
+    3300006: BotFurnitureDoor
+    3300008: BotFurnitureDoor1
+    3300010: BotFurnitureDoor2
+    3300012: BotFurnitureDoor3
+    3300014: BotFurnitureDoor4
+    3300016: BotFurnitureDoor5
+    3300018: MarbleBalcony
+    4300000: MarbleBalcony
+    4300002: Balcony
+    4300004: BotFurnitureDoor3
+    4300006: BotFurnitureDoor4
+    4300008: BotFurnitureDoor5
+    4300010: BotFurnitureDoor2
+    4300012: BotFurnitureDoor1
+    4300014: BotFurnitureDoor
+    4300016: BotDrawers
+    4300018: BotDrawers1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
