@@ -1,26 +1,61 @@
 fileFormatVersion: 2
 guid: 28b0233f6747b6d4bbc3f0dd87c17234
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Furniture
-    100002: Furniture_Drawers
-    100004: TV_Furniture
-    100006: //RootNode
-    400000: Furniture
-    400002: Furniture_Drawers
-    400004: TV_Furniture
-    400006: //RootNode
-    2100000: lambert1
-    2300000: Furniture
-    2300002: Furniture_Drawers
-    3300000: Furniture
-    3300002: Furniture_Drawers
-    4300000: Furniture
-    4300002: Furniture_Drawers
-  externalObjects: {}
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Furniture
+  - first:
+      1: 100002
+    second: Furniture_Drawers
+  - first:
+      1: 100004
+    second: TV_Furniture
+  - first:
+      1: 100006
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Furniture
+  - first:
+      4: 400002
+    second: Furniture_Drawers
+  - first:
+      4: 400004
+    second: TV_Furniture
+  - first:
+      4: 400006
+    second: //RootNode
+  - first:
+      21: 2100000
+    second: lambert1
+  - first:
+      23: 2300000
+    second: Furniture
+  - first:
+      23: 2300002
+    second: Furniture_Drawers
+  - first:
+      33: 3300000
+    second: Furniture
+  - first:
+      33: 3300002
+    second: Furniture_Drawers
+  - first:
+      43: 4300000
+    second: Furniture
+  - first:
+      43: 4300002
+    second: Furniture_Drawers
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 47c08b2c3b8ee1049803835547e01c99, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -53,25 +88,32 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -80,10 +122,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -93,13 +135,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
