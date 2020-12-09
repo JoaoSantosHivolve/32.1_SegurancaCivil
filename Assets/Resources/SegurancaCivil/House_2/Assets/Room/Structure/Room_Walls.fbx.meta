@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: cf456ec30c79a8e4bb70500e3e760407
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: DoorTileable
+    100002: DoorTileWall
+    100004: FinalWallTiles
+    100006: //RootNode
+    100008: WallBorders
+    100010: WallLowBorder
+    100012: WallLowBorder10
+    100014: WallLowBorder3
+    100016: WallLowBorder7
+    100018: WallLowBorder9
+    100020: WallTile_Final1
+    100022: WallTile_Final2
+    100024: WallTile_Final3
+    100026: WallTile_Final4
+    100028: WallTile_Final5
+    100030: WallTile_Final6
+    100032: WallTile_Final7
+    100034: WallTile_Final8
+    100036: WallTile_Final9
+    100038: WindowTileWall1
+    100040: WindowTileWall2
+    400000: DoorTileable
+    400002: DoorTileWall
+    400004: FinalWallTiles
+    400006: //RootNode
+    400008: WallBorders
+    400010: WallLowBorder
+    400012: WallLowBorder10
+    400014: WallLowBorder3
+    400016: WallLowBorder7
+    400018: WallLowBorder9
+    400020: WallTile_Final1
+    400022: WallTile_Final2
+    400024: WallTile_Final3
+    400026: WallTile_Final4
+    400028: WallTile_Final5
+    400030: WallTile_Final6
+    400032: WallTile_Final7
+    400034: WallTile_Final8
+    400036: WallTile_Final9
+    400038: WindowTileWall1
+    400040: WindowTileWall2
+    2100000: Edgeborder
+    2100002: lambert1
+    2300000: DoorTileWall
+    2300002: WallLowBorder
+    2300004: WallLowBorder10
+    2300006: WallLowBorder3
+    2300008: WallLowBorder7
+    2300010: WallLowBorder9
+    2300012: WallTile_Final1
+    2300014: WallTile_Final2
+    2300016: WallTile_Final3
+    2300018: WallTile_Final4
+    2300020: WallTile_Final5
+    2300022: WallTile_Final6
+    2300024: WallTile_Final7
+    2300026: WallTile_Final8
+    2300028: WallTile_Final9
+    2300030: WindowTileWall1
+    2300032: WindowTileWall2
+    3300000: DoorTileWall
+    3300002: WallLowBorder
+    3300004: WallLowBorder10
+    3300006: WallLowBorder3
+    3300008: WallLowBorder7
+    3300010: WallLowBorder9
+    3300012: WallTile_Final1
+    3300014: WallTile_Final2
+    3300016: WallTile_Final3
+    3300018: WallTile_Final4
+    3300020: WallTile_Final5
+    3300022: WallTile_Final6
+    3300024: WallTile_Final7
+    3300026: WallTile_Final8
+    3300028: WallTile_Final9
+    3300030: WindowTileWall1
+    3300032: WindowTileWall2
+    4300000: WallLowBorder
+    4300002: WallLowBorder3
+    4300004: WallLowBorder9
+    4300006: WallLowBorder10
+    4300008: WallLowBorder7
+    4300010: WallTile_Final1
+    4300012: WindowTileWall1
+    4300014: WindowTileWall2
+    4300016: WallTile_Final2
+    4300018: WallTile_Final3
+    4300020: WallTile_Final4
+    4300022: WallTile_Final5
+    4300024: WallTile_Final6
+    4300026: WallTile_Final7
+    4300028: WallTile_Final8
+    4300030: WallTile_Final9
+    4300032: DoorTileWall
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Edgeborder
+    second: {fileID: 2100000, guid: 47c08b2c3b8ee1049803835547e01c99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: dd422b08a1455ba46b74987d14f4a4a3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

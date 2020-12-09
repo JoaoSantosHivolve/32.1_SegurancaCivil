@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 7aa385ceed77a4a4db0be0995fb7f0c5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Garage
+    100002: group
+    100004: LivingRoom
+    100006: pasted__Kitchen
+    100008: pasted__pasted__Room
+    100010: pasted__pasted__WallTile42
+    100012: pasted__pasted__WallTile44
+    100014: pasted__pasted__WallTile45
+    100016: pasted__pasted__WallTiles
+    100018: pasted__WallTiles
+    100020: Room
+    100022: //RootNode
+    100024: WallTile25
+    100026: WallTile26
+    100028: WallTiles
+    400000: Garage
+    400002: group
+    400004: LivingRoom
+    400006: pasted__Kitchen
+    400008: pasted__pasted__Room
+    400010: pasted__pasted__WallTile42
+    400012: pasted__pasted__WallTile44
+    400014: pasted__pasted__WallTile45
+    400016: pasted__pasted__WallTiles
+    400018: pasted__WallTiles
+    400020: Room
+    400022: //RootNode
+    400024: WallTile25
+    400026: WallTile26
+    400028: WallTiles
+    2100000: lambert1
+    2300000: pasted__pasted__WallTile42
+    2300002: pasted__pasted__WallTile44
+    2300004: pasted__pasted__WallTile45
+    2300006: WallTile25
+    2300008: WallTile26
+    3300000: pasted__pasted__WallTile42
+    3300002: pasted__pasted__WallTile44
+    3300004: pasted__pasted__WallTile45
+    3300006: WallTile25
+    3300008: WallTile26
+    4300000: pasted__pasted__WallTile45
+    4300002: pasted__pasted__WallTile42
+    4300004: WallTile25
+    4300006: WallTile26
+    4300008: pasted__pasted__WallTile44
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: dd422b08a1455ba46b74987d14f4a4a3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
