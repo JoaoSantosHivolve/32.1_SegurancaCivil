@@ -87,6 +87,18 @@ namespace Valve.VR.InteractionSystem
         public bool spewDebugText = false;
         public bool showDebugInteractables = false;
 
+       // private bool m_ShowLazer;
+       // public bool ShowLazer
+       // {
+       //     get => m_ShowLazer;
+       //     set
+       //     {
+       //         m_ShowLazer = value;
+       //         lazer.SetActive(value);
+       //     }
+       // }
+       // public GameObject lazer;
+
         public struct AttachedObject
         {
             public GameObject attachedObject;

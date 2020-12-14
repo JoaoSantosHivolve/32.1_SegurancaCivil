@@ -6,6 +6,7 @@ TagManager:
   tags:
   - projectile
   - FxTemporaire
+  - SafeZone
   layers:
   - Default
   - TransparentFX

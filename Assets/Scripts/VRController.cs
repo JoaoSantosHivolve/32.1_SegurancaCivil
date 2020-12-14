@@ -74,7 +74,7 @@ public class VRController : MonoBehaviour
 
     private void HandleHeight()
     {
-        var headHeight = Mathf.Clamp(m_Head.localPosition.y, 0.5f, 2);
+        var headHeight = Mathf.Clamp(m_Head.localPosition.y, 0.1f, 2);
         m_CharacterController.height = headHeight;
 
         var newCenter = Vector3.zero;

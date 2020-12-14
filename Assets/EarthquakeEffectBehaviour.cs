@@ -5,7 +5,7 @@ using Valve.VR.InteractionSystem;
 public class EarthquakeEffectBehaviour : MonoBehaviour
 {
     public Hand.AttachmentFlags flags;
-    public int objectsPerFrame;
+    [HideInInspector] public int objectsPerFrame;
 
     private int m_Index;
     public int Index
@@ -19,6 +19,7 @@ public class EarthquakeEffectBehaviour : MonoBehaviour
         }
     }
     [SerializeField] private Rigidbody[] m_Objects;
+    [HideInInspector] public AnimationCurve behaviour;
 
     private void Start()
     {
@@ -28,7 +29,7 @@ public class EarthquakeEffectBehaviour : MonoBehaviour
         {
             if (item.gameObject.GetComponent<Interactable>() == null) 
                 item.gameObject.AddComponent<Interactable>();
-            item.gameObject.GetComponent<Interactable>().hideHandOnAttach = true;
+            item.gameObject.GetComponent<Interactable>().hideHandOnAttach = false;
             item.gameObject.GetComponent<Interactable>().highlightOnHover = false;
 
             if (item.gameObject.GetComponent<Throwable>() == null) 
@@ -46,10 +47,13 @@ public class EarthquakeEffectBehaviour : MonoBehaviour
 
         while (time < duration)
         {
+            var behaviourTime = time / duration;
+            var beheviourIntensity = intensity * behaviour.Evaluate(behaviourTime);
+
             for (int i = 0; i < objectsPerFrame; i++)
             {
-                m_Objects[Index].AddForce(Random.insideUnitSphere * intensity);
-                m_Objects[Index].AddTorque(Random.insideUnitSphere * intensity);
+                m_Objects[Index].AddForce(Random.insideUnitSphere * beheviourIntensity);
+                m_Objects[Index].AddTorque(Random.insideUnitSphere * beheviourIntensity);
 
                 Index++;
             }

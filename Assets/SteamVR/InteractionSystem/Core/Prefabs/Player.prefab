@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 11465950}
   - component: {fileID: 1130938084712971899}
   - component: {fileID: 1531657110546711970}
+  - component: {fileID: 1819749797682542646}
   m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
@@ -292,7 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Gravity: 60
-  m_Sensitivity: 0.05
+  m_Sensitivity: 0.025
   m_MaxSpeed: 1
   m_MovePress:
     actionPath: /actions/default/in/Teleport
@@ -319,6 +320,23 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1819749797682542646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0633f20b37c275149b32f7f5e2f78dcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSafe: 0
+  safe: {r: 0, g: 1, b: 0, a: 0}
+  notSafe: {r: 1, g: 0, b: 0, a: 0}
+  watchDisplay: {fileID: 0}
+  watchText: {fileID: 0}
 --- !u!1 &109154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1054,7 @@ MonoBehaviour:
   noSteamVRFallbackCamera: {fileID: 0}
   noSteamVRFallbackMaxDistanceNoItem: 10
   noSteamVRFallbackMaxDistanceWithItem: 0.5
-  renderModelPrefab: {fileID: 1000011547835092, guid: d5082f7d9f947374197e0a97786f4e40,
+  renderModelPrefab: {fileID: 1000011547835092, guid: 8ade79fed86bbd141926d1cd94c98457,
     type: 3}
   renderModels: []
   mainRenderModel: {fileID: 0}
@@ -1177,7 +1195,7 @@ MonoBehaviour:
   noSteamVRFallbackCamera: {fileID: 0}
   noSteamVRFallbackMaxDistanceNoItem: 10
   noSteamVRFallbackMaxDistanceWithItem: 0.5
-  renderModelPrefab: {fileID: 1000012617731570, guid: 837f93beb9a614743ae3a2c0ada7c388,
+  renderModelPrefab: {fileID: 1000012617731570, guid: d07386f0ec952ec409dc7753bcf5746b,
     type: 3}
   renderModels: []
   mainRenderModel: {fileID: 0}
