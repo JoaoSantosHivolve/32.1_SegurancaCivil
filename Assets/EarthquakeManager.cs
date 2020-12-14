@@ -19,6 +19,8 @@ public class EarthquakeManager : MonoBehaviour
     public EarthquakeEffectBehaviour effectBehaviour;
     [Header("Safe Zone Components")]
     public SafeZoneBehaviour safeZoneBehaviour;
+    [Header("Sound Zones Components")]
+    public SoundZonesManager soundZonesManager;
 
     private void Awake()
     {
@@ -27,18 +29,18 @@ public class EarthquakeManager : MonoBehaviour
 
         effectBehaviour.behaviour = earthquakeBehaviour;
         cameraEffect.behaviour = earthquakeBehaviour;
+        soundZonesManager.behaviour = earthquakeBehaviour;
     }
 
     public IEnumerator PrepareExperience()
     {
         var time = preparationTime;
-
+        
         while (time >= 0)
         {
             var clockValue = time / preparationTime;
             uiController.UpdateBar(clockValue, (int)time);
             time -= Time.deltaTime;
-
             yield return null;
         }
 
@@ -46,6 +48,7 @@ public class EarthquakeManager : MonoBehaviour
 
         StartCoroutine(effectBehaviour.EarthquakeEffect(duration, earthquakeIntensity));
         StartCoroutine(cameraEffect.EarthquakeEffect(duration, cameraEffectIntensity, hapticMagnitude));
+        StartCoroutine(soundZonesManager.EarthquakeEffect(duration));
         StartCoroutine(CheckPlayerSurvival());
     }
 
