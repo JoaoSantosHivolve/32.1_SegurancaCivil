@@ -21,6 +21,10 @@ public class EarthquakeManager : MonoBehaviour
     public SafeZoneBehaviour safeZoneBehaviour;
     [Header("Sound Zones Components")]
     public SoundZonesManager soundZonesManager;
+    [Header("Damageable Objects Components")]
+    public DamageableObjectsManager damageableObjectsManager;
+    [Header("Animated Objects Components")]
+    public AnimatedEarthquakeObjectsManager animatedEarthquakeObjectsManager;
 
     private void Awake()
     {
@@ -30,6 +34,7 @@ public class EarthquakeManager : MonoBehaviour
         effectBehaviour.behaviour = earthquakeBehaviour;
         cameraEffect.behaviour = earthquakeBehaviour;
         soundZonesManager.behaviour = earthquakeBehaviour;
+        animatedEarthquakeObjectsManager.behaviour = earthquakeBehaviour;
     }
 
     public IEnumerator PrepareExperience()
@@ -46,10 +51,13 @@ public class EarthquakeManager : MonoBehaviour
 
         uiController.UpdateBar(0, 0);
 
+        StartCoroutine(CheckPlayerSurvival());
+        // Manager components Effect
         StartCoroutine(effectBehaviour.EarthquakeEffect(duration, earthquakeIntensity));
         StartCoroutine(cameraEffect.EarthquakeEffect(duration, cameraEffectIntensity, hapticMagnitude));
         StartCoroutine(soundZonesManager.EarthquakeEffect(duration));
-        StartCoroutine(CheckPlayerSurvival());
+        StartCoroutine(damageableObjectsManager.DamageObjects(duration));
+        StartCoroutine(animatedEarthquakeObjectsManager.EarthquakeEffect(duration));
     }
 
     public IEnumerator CheckPlayerSurvival()

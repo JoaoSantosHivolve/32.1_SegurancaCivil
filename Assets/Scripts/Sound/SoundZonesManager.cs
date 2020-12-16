@@ -10,7 +10,7 @@ public enum ZoneSpatial
 
 public class SoundZonesManager : MonoBehaviour
 {
-    public AnimationCurve behaviour;
+    [HideInInspector] public AnimationCurve behaviour;
 
     [Header("Set on Start")]
     public List<SoundZone> soundZones;
