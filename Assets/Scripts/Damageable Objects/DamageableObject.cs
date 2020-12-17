@@ -12,17 +12,15 @@ public class DamageableObject : MonoBehaviour
     public List<MeshRenderer> renderersToChange;
 
     protected DamageableObjectsManager m_Manager;
-    protected AudioSource Source;
+    private AudioSource source;
     [HideInInspector] public Material[] defaultMats;
 
-    protected virtual void Start()
+    protected void Start()
     {
         m_Manager = DamageableObjectsManager.Instance;
 
-        Source = GetComponent<AudioSource>();
-
-        if(renderersToChange.Count > 0)
-            defaultMats = renderersToChange[0].materials;
+        source = GetComponent<AudioSource>();
+        defaultMats = renderersToChange[0].materials;
     }
 
     public void DamageObject()
@@ -42,8 +40,8 @@ public class DamageableObject : MonoBehaviour
             }
         }
 
-        Source.clip = m_Manager.GetSound(type);
-        Source.spatialBlend = 1;
-        Source.Play();
+        source.clip = m_Manager.GetSound(type);
+        source.spatialBlend = 1;
+        source.Play();
     }
 }
