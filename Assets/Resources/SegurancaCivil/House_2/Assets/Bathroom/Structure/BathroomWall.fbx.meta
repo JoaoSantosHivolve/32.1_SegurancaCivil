@@ -1,188 +1,68 @@
 fileFormatVersion: 2
 guid: e42f40a9d69321b408728eb0e0f25a99
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: DoorTileable8
-  - first:
-      1: 100004
-    second: DoorTileWall
-  - first:
-      1: 100006
-    second: FinalWallTiles
-  - first:
-      1: 100008
-    second: pCube209
-  - first:
-      1: 100010
-    second: pCube210
-  - first:
-      1: 100012
-    second: pCube211
-  - first:
-      1: 100014
-    second: pCube212
-  - first:
-      1: 100016
-    second: Room
-  - first:
-      1: 100018
-    second: WallTile_Final10
-  - first:
-      1: 100020
-    second: WallTile_Final11
-  - first:
-      1: 100022
-    second: WallTile_Final12
-  - first:
-      1: 100024
-    second: WallTile_Final13
-  - first:
-      1: 100026
-    second: WindowTileWall5
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: DoorTileable8
-  - first:
-      4: 400004
-    second: DoorTileWall
-  - first:
-      4: 400006
-    second: FinalWallTiles
-  - first:
-      4: 400008
-    second: pCube209
-  - first:
-      4: 400010
-    second: pCube210
-  - first:
-      4: 400012
-    second: pCube211
-  - first:
-      4: 400014
-    second: pCube212
-  - first:
-      4: 400016
-    second: Room
-  - first:
-      4: 400018
-    second: WallTile_Final10
-  - first:
-      4: 400020
-    second: WallTile_Final11
-  - first:
-      4: 400022
-    second: WallTile_Final12
-  - first:
-      4: 400024
-    second: WallTile_Final13
-  - first:
-      4: 400026
-    second: WindowTileWall5
-  - first:
-      21: 2100000
-    second: lambert1
-  - first:
-      21: 2100002
-    second: WallEdge
-  - first:
-      23: 2300000
-    second: DoorTileWall
-  - first:
-      23: 2300002
-    second: pCube209
-  - first:
-      23: 2300004
-    second: pCube210
-  - first:
-      23: 2300006
-    second: pCube211
-  - first:
-      23: 2300008
-    second: pCube212
-  - first:
-      23: 2300010
-    second: WallTile_Final10
-  - first:
-      23: 2300012
-    second: WallTile_Final11
-  - first:
-      23: 2300014
-    second: WallTile_Final12
-  - first:
-      23: 2300016
-    second: WallTile_Final13
-  - first:
-      23: 2300018
-    second: WindowTileWall5
-  - first:
-      33: 3300000
-    second: DoorTileWall
-  - first:
-      33: 3300002
-    second: pCube209
-  - first:
-      33: 3300004
-    second: pCube210
-  - first:
-      33: 3300006
-    second: pCube211
-  - first:
-      33: 3300008
-    second: pCube212
-  - first:
-      33: 3300010
-    second: WallTile_Final10
-  - first:
-      33: 3300012
-    second: WallTile_Final11
-  - first:
-      33: 3300014
-    second: WallTile_Final12
-  - first:
-      33: 3300016
-    second: WallTile_Final13
-  - first:
-      33: 3300018
-    second: WindowTileWall5
-  - first:
-      43: 4300000
-    second: WindowTileWall5
-  - first:
-      43: 4300002
-    second: WallTile_Final10
-  - first:
-      43: 4300004
-    second: WallTile_Final11
-  - first:
-      43: 4300006
-    second: WallTile_Final12
-  - first:
-      43: 4300008
-    second: WallTile_Final13
-  - first:
-      43: 4300010
-    second: DoorTileWall
-  - first:
-      43: 4300012
-    second: pCube209
-  - first:
-      43: 4300014
-    second: pCube210
-  - first:
-      43: 4300016
-    second: pCube211
-  - first:
-      43: 4300018
-    second: pCube212
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DoorTileable8
+    100004: DoorTileWall
+    100006: FinalWallTiles
+    100008: pCube209
+    100010: pCube210
+    100012: pCube211
+    100014: pCube212
+    100016: Room
+    100018: WallTile_Final10
+    100020: WallTile_Final11
+    100022: WallTile_Final12
+    100024: WallTile_Final13
+    100026: WindowTileWall5
+    400000: //RootNode
+    400002: DoorTileable8
+    400004: DoorTileWall
+    400006: FinalWallTiles
+    400008: pCube209
+    400010: pCube210
+    400012: pCube211
+    400014: pCube212
+    400016: Room
+    400018: WallTile_Final10
+    400020: WallTile_Final11
+    400022: WallTile_Final12
+    400024: WallTile_Final13
+    400026: WindowTileWall5
+    2100000: lambert1
+    2100002: WallEdge
+    2300000: DoorTileWall
+    2300002: pCube209
+    2300004: pCube210
+    2300006: pCube211
+    2300008: pCube212
+    2300010: WallTile_Final10
+    2300012: WallTile_Final11
+    2300014: WallTile_Final12
+    2300016: WallTile_Final13
+    2300018: WindowTileWall5
+    3300000: DoorTileWall
+    3300002: pCube209
+    3300004: pCube210
+    3300006: pCube211
+    3300008: pCube212
+    3300010: WallTile_Final10
+    3300012: WallTile_Final11
+    3300014: WallTile_Final12
+    3300016: WallTile_Final13
+    3300018: WindowTileWall5
+    4300000: WindowTileWall5
+    4300002: WallTile_Final10
+    4300004: WallTile_Final11
+    4300006: WallTile_Final12
+    4300008: WallTile_Final13
+    4300010: DoorTileWall
+    4300012: pCube209
+    4300014: pCube210
+    4300016: pCube211
+    4300018: pCube212
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -195,7 +75,7 @@ ModelImporter:
       name: lambert1
     second: {fileID: 2100000, guid: dd422b08a1455ba46b74987d14f4a4a3, type: 2}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -228,32 +108,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -262,10 +135,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -275,16 +148,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

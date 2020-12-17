@@ -1,383 +1,133 @@
 fileFormatVersion: 2
 guid: 31b8983effe316b45888b6ad7e9e853c
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Final_WoodSupport
-  - first:
-      1: 100002
-    second: Final_WoodSupport1
-  - first:
-      1: 100004
-    second: Final_WoodSupport10
-  - first:
-      1: 100006
-    second: Final_WoodSupport11
-  - first:
-      1: 100008
-    second: Final_WoodSupport12
-  - first:
-      1: 100010
-    second: Final_WoodSupport13
-  - first:
-      1: 100012
-    second: Final_WoodSupport2
-  - first:
-      1: 100014
-    second: Final_WoodSupport3
-  - first:
-      1: 100016
-    second: Final_WoodSupport4
-  - first:
-      1: 100018
-    second: Final_WoodSupport5
-  - first:
-      1: 100020
-    second: Final_WoodSupport6
-  - first:
-      1: 100022
-    second: Final_WoodSupport8
-  - first:
-      1: 100024
-    second: //RootNode
-  - first:
-      1: 100026
-    second: polySurface30
-  - first:
-      1: 100028
-    second: polySurface31
-  - first:
-      1: 100030
-    second: polySurface32
-  - first:
-      1: 100032
-    second: polySurface33
-  - first:
-      1: 100034
-    second: polySurface34
-  - first:
-      1: 100036
-    second: polySurface35
-  - first:
-      1: 100038
-    second: polySurface36
-  - first:
-      1: 100040
-    second: polySurface37
-  - first:
-      1: 100042
-    second: polySurface38
-  - first:
-      1: 100044
-    second: polySurface40
-  - first:
-      1: 100046
-    second: polySurface41
-  - first:
-      1: 100048
-    second: polySurface42
-  - first:
-      1: 100050
-    second: polySurface43
-  - first:
-      4: 400000
-    second: Final_WoodSupport
-  - first:
-      4: 400002
-    second: Final_WoodSupport1
-  - first:
-      4: 400004
-    second: Final_WoodSupport10
-  - first:
-      4: 400006
-    second: Final_WoodSupport11
-  - first:
-      4: 400008
-    second: Final_WoodSupport12
-  - first:
-      4: 400010
-    second: Final_WoodSupport13
-  - first:
-      4: 400012
-    second: Final_WoodSupport2
-  - first:
-      4: 400014
-    second: Final_WoodSupport3
-  - first:
-      4: 400016
-    second: Final_WoodSupport4
-  - first:
-      4: 400018
-    second: Final_WoodSupport5
-  - first:
-      4: 400020
-    second: Final_WoodSupport6
-  - first:
-      4: 400022
-    second: Final_WoodSupport8
-  - first:
-      4: 400024
-    second: //RootNode
-  - first:
-      4: 400026
-    second: polySurface30
-  - first:
-      4: 400028
-    second: polySurface31
-  - first:
-      4: 400030
-    second: polySurface32
-  - first:
-      4: 400032
-    second: polySurface33
-  - first:
-      4: 400034
-    second: polySurface34
-  - first:
-      4: 400036
-    second: polySurface35
-  - first:
-      4: 400038
-    second: polySurface36
-  - first:
-      4: 400040
-    second: polySurface37
-  - first:
-      4: 400042
-    second: polySurface38
-  - first:
-      4: 400044
-    second: polySurface40
-  - first:
-      4: 400046
-    second: polySurface41
-  - first:
-      4: 400048
-    second: polySurface42
-  - first:
-      4: 400050
-    second: polySurface43
-  - first:
-      21: 2100000
-    second: lambert1
-  - first:
-      23: 2300000
-    second: Final_WoodSupport1
-  - first:
-      23: 2300002
-    second: Final_WoodSupport10
-  - first:
-      23: 2300004
-    second: Final_WoodSupport11
-  - first:
-      23: 2300006
-    second: Final_WoodSupport12
-  - first:
-      23: 2300008
-    second: Final_WoodSupport13
-  - first:
-      23: 2300010
-    second: Final_WoodSupport2
-  - first:
-      23: 2300012
-    second: Final_WoodSupport3
-  - first:
-      23: 2300014
-    second: Final_WoodSupport4
-  - first:
-      23: 2300016
-    second: Final_WoodSupport5
-  - first:
-      23: 2300018
-    second: Final_WoodSupport6
-  - first:
-      23: 2300020
-    second: Final_WoodSupport8
-  - first:
-      23: 2300022
-    second: polySurface30
-  - first:
-      23: 2300024
-    second: polySurface31
-  - first:
-      23: 2300026
-    second: polySurface32
-  - first:
-      23: 2300028
-    second: polySurface33
-  - first:
-      23: 2300030
-    second: polySurface34
-  - first:
-      23: 2300032
-    second: polySurface35
-  - first:
-      23: 2300034
-    second: polySurface36
-  - first:
-      23: 2300036
-    second: polySurface37
-  - first:
-      23: 2300038
-    second: polySurface38
-  - first:
-      23: 2300040
-    second: polySurface40
-  - first:
-      23: 2300042
-    second: polySurface41
-  - first:
-      23: 2300044
-    second: polySurface42
-  - first:
-      23: 2300046
-    second: polySurface43
-  - first:
-      33: 3300000
-    second: Final_WoodSupport1
-  - first:
-      33: 3300002
-    second: Final_WoodSupport10
-  - first:
-      33: 3300004
-    second: Final_WoodSupport11
-  - first:
-      33: 3300006
-    second: Final_WoodSupport12
-  - first:
-      33: 3300008
-    second: Final_WoodSupport13
-  - first:
-      33: 3300010
-    second: Final_WoodSupport2
-  - first:
-      33: 3300012
-    second: Final_WoodSupport3
-  - first:
-      33: 3300014
-    second: Final_WoodSupport4
-  - first:
-      33: 3300016
-    second: Final_WoodSupport5
-  - first:
-      33: 3300018
-    second: Final_WoodSupport6
-  - first:
-      33: 3300020
-    second: Final_WoodSupport8
-  - first:
-      33: 3300022
-    second: polySurface30
-  - first:
-      33: 3300024
-    second: polySurface31
-  - first:
-      33: 3300026
-    second: polySurface32
-  - first:
-      33: 3300028
-    second: polySurface33
-  - first:
-      33: 3300030
-    second: polySurface34
-  - first:
-      33: 3300032
-    second: polySurface35
-  - first:
-      33: 3300034
-    second: polySurface36
-  - first:
-      33: 3300036
-    second: polySurface37
-  - first:
-      33: 3300038
-    second: polySurface38
-  - first:
-      33: 3300040
-    second: polySurface40
-  - first:
-      33: 3300042
-    second: polySurface41
-  - first:
-      33: 3300044
-    second: polySurface42
-  - first:
-      33: 3300046
-    second: polySurface43
-  - first:
-      43: 4300000
-    second: polySurface30
-  - first:
-      43: 4300002
-    second: polySurface31
-  - first:
-      43: 4300004
-    second: polySurface32
-  - first:
-      43: 4300006
-    second: polySurface33
-  - first:
-      43: 4300008
-    second: polySurface34
-  - first:
-      43: 4300010
-    second: polySurface35
-  - first:
-      43: 4300012
-    second: polySurface36
-  - first:
-      43: 4300014
-    second: polySurface37
-  - first:
-      43: 4300016
-    second: polySurface38
-  - first:
-      43: 4300018
-    second: polySurface40
-  - first:
-      43: 4300020
-    second: polySurface41
-  - first:
-      43: 4300022
-    second: polySurface42
-  - first:
-      43: 4300024
-    second: polySurface43
-  - first:
-      43: 4300026
-    second: Final_WoodSupport1
-  - first:
-      43: 4300028
-    second: Final_WoodSupport2
-  - first:
-      43: 4300030
-    second: Final_WoodSupport3
-  - first:
-      43: 4300032
-    second: Final_WoodSupport4
-  - first:
-      43: 4300034
-    second: Final_WoodSupport5
-  - first:
-      43: 4300036
-    second: Final_WoodSupport6
-  - first:
-      43: 4300038
-    second: Final_WoodSupport8
-  - first:
-      43: 4300040
-    second: Final_WoodSupport10
-  - first:
-      43: 4300042
-    second: Final_WoodSupport11
-  - first:
-      43: 4300044
-    second: Final_WoodSupport12
-  - first:
-      43: 4300046
-    second: Final_WoodSupport13
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Final_WoodSupport
+    100002: Final_WoodSupport1
+    100004: Final_WoodSupport10
+    100006: Final_WoodSupport11
+    100008: Final_WoodSupport12
+    100010: Final_WoodSupport13
+    100012: Final_WoodSupport2
+    100014: Final_WoodSupport3
+    100016: Final_WoodSupport4
+    100018: Final_WoodSupport5
+    100020: Final_WoodSupport6
+    100022: Final_WoodSupport8
+    100024: //RootNode
+    100026: polySurface30
+    100028: polySurface31
+    100030: polySurface32
+    100032: polySurface33
+    100034: polySurface34
+    100036: polySurface35
+    100038: polySurface36
+    100040: polySurface37
+    100042: polySurface38
+    100044: polySurface40
+    100046: polySurface41
+    100048: polySurface42
+    100050: polySurface43
+    400000: Final_WoodSupport
+    400002: Final_WoodSupport1
+    400004: Final_WoodSupport10
+    400006: Final_WoodSupport11
+    400008: Final_WoodSupport12
+    400010: Final_WoodSupport13
+    400012: Final_WoodSupport2
+    400014: Final_WoodSupport3
+    400016: Final_WoodSupport4
+    400018: Final_WoodSupport5
+    400020: Final_WoodSupport6
+    400022: Final_WoodSupport8
+    400024: //RootNode
+    400026: polySurface30
+    400028: polySurface31
+    400030: polySurface32
+    400032: polySurface33
+    400034: polySurface34
+    400036: polySurface35
+    400038: polySurface36
+    400040: polySurface37
+    400042: polySurface38
+    400044: polySurface40
+    400046: polySurface41
+    400048: polySurface42
+    400050: polySurface43
+    2100000: lambert1
+    2300000: Final_WoodSupport1
+    2300002: Final_WoodSupport10
+    2300004: Final_WoodSupport11
+    2300006: Final_WoodSupport12
+    2300008: Final_WoodSupport13
+    2300010: Final_WoodSupport2
+    2300012: Final_WoodSupport3
+    2300014: Final_WoodSupport4
+    2300016: Final_WoodSupport5
+    2300018: Final_WoodSupport6
+    2300020: Final_WoodSupport8
+    2300022: polySurface30
+    2300024: polySurface31
+    2300026: polySurface32
+    2300028: polySurface33
+    2300030: polySurface34
+    2300032: polySurface35
+    2300034: polySurface36
+    2300036: polySurface37
+    2300038: polySurface38
+    2300040: polySurface40
+    2300042: polySurface41
+    2300044: polySurface42
+    2300046: polySurface43
+    3300000: Final_WoodSupport1
+    3300002: Final_WoodSupport10
+    3300004: Final_WoodSupport11
+    3300006: Final_WoodSupport12
+    3300008: Final_WoodSupport13
+    3300010: Final_WoodSupport2
+    3300012: Final_WoodSupport3
+    3300014: Final_WoodSupport4
+    3300016: Final_WoodSupport5
+    3300018: Final_WoodSupport6
+    3300020: Final_WoodSupport8
+    3300022: polySurface30
+    3300024: polySurface31
+    3300026: polySurface32
+    3300028: polySurface33
+    3300030: polySurface34
+    3300032: polySurface35
+    3300034: polySurface36
+    3300036: polySurface37
+    3300038: polySurface38
+    3300040: polySurface40
+    3300042: polySurface41
+    3300044: polySurface42
+    3300046: polySurface43
+    4300000: polySurface30
+    4300002: polySurface31
+    4300004: polySurface32
+    4300006: polySurface33
+    4300008: polySurface34
+    4300010: polySurface35
+    4300012: polySurface36
+    4300014: polySurface37
+    4300016: polySurface38
+    4300018: polySurface40
+    4300020: polySurface41
+    4300022: polySurface42
+    4300024: polySurface43
+    4300026: Final_WoodSupport1
+    4300028: Final_WoodSupport2
+    4300030: Final_WoodSupport3
+    4300032: Final_WoodSupport4
+    4300034: Final_WoodSupport5
+    4300036: Final_WoodSupport6
+    4300038: Final_WoodSupport8
+    4300040: Final_WoodSupport10
+    4300042: Final_WoodSupport11
+    4300044: Final_WoodSupport12
+    4300046: Final_WoodSupport13
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -385,7 +135,7 @@ ModelImporter:
       name: lambert1
     second: {fileID: 2100000, guid: 4bbc4c8dedd0f8543ba469e4f713ba3c, type: 2}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -418,32 +168,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -452,10 +195,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -465,16 +208,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
