@@ -1,62 +1,170 @@
 fileFormatVersion: 2
 guid: 86d594aac3e528844936c1081c630ab7
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: group
-    100002: //RootNode
-    100004: pasted__GroundTile
-    100006: pasted__GroundTile1
-    100008: pasted__GroundTile2
-    100010: pasted__GroundTile3
-    100012: pasted__GroundTile4
-    100014: pasted__GroundTile5
-    100016: pasted__GroundTile6
-    100018: pasted__GroundTile7
-    100020: pasted__GroundTile8
-    100022: pasted__GroundTiles
-    100024: pasted__Kitchen
-    400000: group
-    400002: //RootNode
-    400004: pasted__GroundTile
-    400006: pasted__GroundTile1
-    400008: pasted__GroundTile2
-    400010: pasted__GroundTile3
-    400012: pasted__GroundTile4
-    400014: pasted__GroundTile5
-    400016: pasted__GroundTile6
-    400018: pasted__GroundTile7
-    400020: pasted__GroundTile8
-    400022: pasted__GroundTiles
-    400024: pasted__Kitchen
-    2100000: lambert1
-    2300000: pasted__GroundTile
-    2300002: pasted__GroundTile1
-    2300004: pasted__GroundTile2
-    2300006: pasted__GroundTile3
-    2300008: pasted__GroundTile4
-    2300010: pasted__GroundTile5
-    2300012: pasted__GroundTile6
-    2300014: pasted__GroundTile7
-    2300016: pasted__GroundTile8
-    3300000: pasted__GroundTile
-    3300002: pasted__GroundTile1
-    3300004: pasted__GroundTile2
-    3300006: pasted__GroundTile3
-    3300008: pasted__GroundTile4
-    3300010: pasted__GroundTile5
-    3300012: pasted__GroundTile6
-    3300014: pasted__GroundTile7
-    3300016: pasted__GroundTile8
-    4300000: pasted__GroundTile
-    4300002: pasted__GroundTile1
-    4300004: pasted__GroundTile2
-    4300006: pasted__GroundTile3
-    4300008: pasted__GroundTile4
-    4300010: pasted__GroundTile5
-    4300012: pasted__GroundTile6
-    4300014: pasted__GroundTile7
-    4300016: pasted__GroundTile8
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: group
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: pasted__GroundTile
+  - first:
+      1: 100006
+    second: pasted__GroundTile1
+  - first:
+      1: 100008
+    second: pasted__GroundTile2
+  - first:
+      1: 100010
+    second: pasted__GroundTile3
+  - first:
+      1: 100012
+    second: pasted__GroundTile4
+  - first:
+      1: 100014
+    second: pasted__GroundTile5
+  - first:
+      1: 100016
+    second: pasted__GroundTile6
+  - first:
+      1: 100018
+    second: pasted__GroundTile7
+  - first:
+      1: 100020
+    second: pasted__GroundTile8
+  - first:
+      1: 100022
+    second: pasted__GroundTiles
+  - first:
+      1: 100024
+    second: pasted__Kitchen
+  - first:
+      4: 400000
+    second: group
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: pasted__GroundTile
+  - first:
+      4: 400006
+    second: pasted__GroundTile1
+  - first:
+      4: 400008
+    second: pasted__GroundTile2
+  - first:
+      4: 400010
+    second: pasted__GroundTile3
+  - first:
+      4: 400012
+    second: pasted__GroundTile4
+  - first:
+      4: 400014
+    second: pasted__GroundTile5
+  - first:
+      4: 400016
+    second: pasted__GroundTile6
+  - first:
+      4: 400018
+    second: pasted__GroundTile7
+  - first:
+      4: 400020
+    second: pasted__GroundTile8
+  - first:
+      4: 400022
+    second: pasted__GroundTiles
+  - first:
+      4: 400024
+    second: pasted__Kitchen
+  - first:
+      21: 2100000
+    second: lambert1
+  - first:
+      23: 2300000
+    second: pasted__GroundTile
+  - first:
+      23: 2300002
+    second: pasted__GroundTile1
+  - first:
+      23: 2300004
+    second: pasted__GroundTile2
+  - first:
+      23: 2300006
+    second: pasted__GroundTile3
+  - first:
+      23: 2300008
+    second: pasted__GroundTile4
+  - first:
+      23: 2300010
+    second: pasted__GroundTile5
+  - first:
+      23: 2300012
+    second: pasted__GroundTile6
+  - first:
+      23: 2300014
+    second: pasted__GroundTile7
+  - first:
+      23: 2300016
+    second: pasted__GroundTile8
+  - first:
+      33: 3300000
+    second: pasted__GroundTile
+  - first:
+      33: 3300002
+    second: pasted__GroundTile1
+  - first:
+      33: 3300004
+    second: pasted__GroundTile2
+  - first:
+      33: 3300006
+    second: pasted__GroundTile3
+  - first:
+      33: 3300008
+    second: pasted__GroundTile4
+  - first:
+      33: 3300010
+    second: pasted__GroundTile5
+  - first:
+      33: 3300012
+    second: pasted__GroundTile6
+  - first:
+      33: 3300014
+    second: pasted__GroundTile7
+  - first:
+      33: 3300016
+    second: pasted__GroundTile8
+  - first:
+      43: 4300000
+    second: pasted__GroundTile
+  - first:
+      43: 4300002
+    second: pasted__GroundTile1
+  - first:
+      43: 4300004
+    second: pasted__GroundTile2
+  - first:
+      43: 4300006
+    second: pasted__GroundTile3
+  - first:
+      43: 4300008
+    second: pasted__GroundTile4
+  - first:
+      43: 4300010
+    second: pasted__GroundTile5
+  - first:
+      43: 4300012
+    second: pasted__GroundTile6
+  - first:
+      43: 4300014
+    second: pasted__GroundTile7
+  - first:
+      43: 4300016
+    second: pasted__GroundTile8
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -64,7 +172,7 @@ ModelImporter:
       name: lambert1
     second: {fileID: 2100000, guid: 47c08b2c3b8ee1049803835547e01c99, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -97,25 +205,32 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -124,10 +239,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -137,13 +252,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
