@@ -19,6 +19,8 @@ public class VRController : MonoBehaviour
     private Transform m_CameraRig;
     private Transform m_Head;
 
+    public bool isWalking;
+
     private void Start()
     {
         m_CameraRig = SteamVR_Render.Top().origin;
@@ -55,7 +57,10 @@ public class VRController : MonoBehaviour
         {
             m_Speed += m_MoveValue.axis.magnitude * m_Sensitivity;
             m_Speed = Mathf.Clamp(m_Speed, -m_MaxSpeed, m_MaxSpeed);
+
+            isWalking = true;
         }
+        else isWalking = false;
 
         movement += orientation * (m_Speed * Vector3.forward);
         movement.y -= m_Gravity * Time.deltaTime;
