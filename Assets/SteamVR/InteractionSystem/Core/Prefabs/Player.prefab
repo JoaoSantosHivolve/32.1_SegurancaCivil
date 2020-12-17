@@ -224,6 +224,8 @@ GameObject:
   - component: {fileID: 1130938084712971899}
   - component: {fileID: 1531657110546711970}
   - component: {fileID: 1819749797682542646}
+  - component: {fileID: 6403273651428739735}
+  - component: {fileID: 7741199870740324453}
   m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
@@ -302,6 +304,7 @@ MonoBehaviour:
     actionPath: /actions/default/in/TouchpadPosition
     needsReinit: 0
   m_CharacterController: {fileID: 1531657110546711970}
+  isWalking: 0
 --- !u!143 &1531657110546711970
 CharacterController:
   m_ObjectHideFlags: 0
@@ -337,6 +340,31 @@ MonoBehaviour:
   notSafe: {r: 1, g: 0, b: 0, a: 0}
   watchDisplay: {fileID: 0}
   watchText: {fileID: 0}
+--- !u!114 &6403273651428739735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d4a62d4170155a428907edbc60f4cc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeout: {fileID: 0}
+--- !u!114 &7741199870740324453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9cb299997900144bb6326f8aa3fec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &109154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2803,3 +2831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7fbcc154eb89b448af0e171fcbbcf40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  behaviour:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

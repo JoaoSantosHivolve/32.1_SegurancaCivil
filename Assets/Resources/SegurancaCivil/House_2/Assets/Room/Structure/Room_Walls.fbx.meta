@@ -1,293 +1,103 @@
 fileFormatVersion: 2
 guid: cf456ec30c79a8e4bb70500e3e760407
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: DoorTileable
-  - first:
-      1: 100002
-    second: DoorTileWall
-  - first:
-      1: 100004
-    second: FinalWallTiles
-  - first:
-      1: 100006
-    second: //RootNode
-  - first:
-      1: 100008
-    second: WallBorders
-  - first:
-      1: 100010
-    second: WallLowBorder
-  - first:
-      1: 100012
-    second: WallLowBorder10
-  - first:
-      1: 100014
-    second: WallLowBorder3
-  - first:
-      1: 100016
-    second: WallLowBorder7
-  - first:
-      1: 100018
-    second: WallLowBorder9
-  - first:
-      1: 100020
-    second: WallTile_Final1
-  - first:
-      1: 100022
-    second: WallTile_Final2
-  - first:
-      1: 100024
-    second: WallTile_Final3
-  - first:
-      1: 100026
-    second: WallTile_Final4
-  - first:
-      1: 100028
-    second: WallTile_Final5
-  - first:
-      1: 100030
-    second: WallTile_Final6
-  - first:
-      1: 100032
-    second: WallTile_Final7
-  - first:
-      1: 100034
-    second: WallTile_Final8
-  - first:
-      1: 100036
-    second: WallTile_Final9
-  - first:
-      1: 100038
-    second: WindowTileWall1
-  - first:
-      1: 100040
-    second: WindowTileWall2
-  - first:
-      4: 400000
-    second: DoorTileable
-  - first:
-      4: 400002
-    second: DoorTileWall
-  - first:
-      4: 400004
-    second: FinalWallTiles
-  - first:
-      4: 400006
-    second: //RootNode
-  - first:
-      4: 400008
-    second: WallBorders
-  - first:
-      4: 400010
-    second: WallLowBorder
-  - first:
-      4: 400012
-    second: WallLowBorder10
-  - first:
-      4: 400014
-    second: WallLowBorder3
-  - first:
-      4: 400016
-    second: WallLowBorder7
-  - first:
-      4: 400018
-    second: WallLowBorder9
-  - first:
-      4: 400020
-    second: WallTile_Final1
-  - first:
-      4: 400022
-    second: WallTile_Final2
-  - first:
-      4: 400024
-    second: WallTile_Final3
-  - first:
-      4: 400026
-    second: WallTile_Final4
-  - first:
-      4: 400028
-    second: WallTile_Final5
-  - first:
-      4: 400030
-    second: WallTile_Final6
-  - first:
-      4: 400032
-    second: WallTile_Final7
-  - first:
-      4: 400034
-    second: WallTile_Final8
-  - first:
-      4: 400036
-    second: WallTile_Final9
-  - first:
-      4: 400038
-    second: WindowTileWall1
-  - first:
-      4: 400040
-    second: WindowTileWall2
-  - first:
-      21: 2100000
-    second: Edgeborder
-  - first:
-      21: 2100002
-    second: lambert1
-  - first:
-      23: 2300000
-    second: DoorTileWall
-  - first:
-      23: 2300002
-    second: WallLowBorder
-  - first:
-      23: 2300004
-    second: WallLowBorder10
-  - first:
-      23: 2300006
-    second: WallLowBorder3
-  - first:
-      23: 2300008
-    second: WallLowBorder7
-  - first:
-      23: 2300010
-    second: WallLowBorder9
-  - first:
-      23: 2300012
-    second: WallTile_Final1
-  - first:
-      23: 2300014
-    second: WallTile_Final2
-  - first:
-      23: 2300016
-    second: WallTile_Final3
-  - first:
-      23: 2300018
-    second: WallTile_Final4
-  - first:
-      23: 2300020
-    second: WallTile_Final5
-  - first:
-      23: 2300022
-    second: WallTile_Final6
-  - first:
-      23: 2300024
-    second: WallTile_Final7
-  - first:
-      23: 2300026
-    second: WallTile_Final8
-  - first:
-      23: 2300028
-    second: WallTile_Final9
-  - first:
-      23: 2300030
-    second: WindowTileWall1
-  - first:
-      23: 2300032
-    second: WindowTileWall2
-  - first:
-      33: 3300000
-    second: DoorTileWall
-  - first:
-      33: 3300002
-    second: WallLowBorder
-  - first:
-      33: 3300004
-    second: WallLowBorder10
-  - first:
-      33: 3300006
-    second: WallLowBorder3
-  - first:
-      33: 3300008
-    second: WallLowBorder7
-  - first:
-      33: 3300010
-    second: WallLowBorder9
-  - first:
-      33: 3300012
-    second: WallTile_Final1
-  - first:
-      33: 3300014
-    second: WallTile_Final2
-  - first:
-      33: 3300016
-    second: WallTile_Final3
-  - first:
-      33: 3300018
-    second: WallTile_Final4
-  - first:
-      33: 3300020
-    second: WallTile_Final5
-  - first:
-      33: 3300022
-    second: WallTile_Final6
-  - first:
-      33: 3300024
-    second: WallTile_Final7
-  - first:
-      33: 3300026
-    second: WallTile_Final8
-  - first:
-      33: 3300028
-    second: WallTile_Final9
-  - first:
-      33: 3300030
-    second: WindowTileWall1
-  - first:
-      33: 3300032
-    second: WindowTileWall2
-  - first:
-      43: 4300000
-    second: WallLowBorder
-  - first:
-      43: 4300002
-    second: WallLowBorder3
-  - first:
-      43: 4300004
-    second: WallLowBorder9
-  - first:
-      43: 4300006
-    second: WallLowBorder10
-  - first:
-      43: 4300008
-    second: WallLowBorder7
-  - first:
-      43: 4300010
-    second: WallTile_Final1
-  - first:
-      43: 4300012
-    second: WindowTileWall1
-  - first:
-      43: 4300014
-    second: WindowTileWall2
-  - first:
-      43: 4300016
-    second: WallTile_Final2
-  - first:
-      43: 4300018
-    second: WallTile_Final3
-  - first:
-      43: 4300020
-    second: WallTile_Final4
-  - first:
-      43: 4300022
-    second: WallTile_Final5
-  - first:
-      43: 4300024
-    second: WallTile_Final6
-  - first:
-      43: 4300026
-    second: WallTile_Final7
-  - first:
-      43: 4300028
-    second: WallTile_Final8
-  - first:
-      43: 4300030
-    second: WallTile_Final9
-  - first:
-      43: 4300032
-    second: DoorTileWall
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: DoorTileable
+    100002: DoorTileWall
+    100004: FinalWallTiles
+    100006: //RootNode
+    100008: WallBorders
+    100010: WallLowBorder
+    100012: WallLowBorder10
+    100014: WallLowBorder3
+    100016: WallLowBorder7
+    100018: WallLowBorder9
+    100020: WallTile_Final1
+    100022: WallTile_Final2
+    100024: WallTile_Final3
+    100026: WallTile_Final4
+    100028: WallTile_Final5
+    100030: WallTile_Final6
+    100032: WallTile_Final7
+    100034: WallTile_Final8
+    100036: WallTile_Final9
+    100038: WindowTileWall1
+    100040: WindowTileWall2
+    400000: DoorTileable
+    400002: DoorTileWall
+    400004: FinalWallTiles
+    400006: //RootNode
+    400008: WallBorders
+    400010: WallLowBorder
+    400012: WallLowBorder10
+    400014: WallLowBorder3
+    400016: WallLowBorder7
+    400018: WallLowBorder9
+    400020: WallTile_Final1
+    400022: WallTile_Final2
+    400024: WallTile_Final3
+    400026: WallTile_Final4
+    400028: WallTile_Final5
+    400030: WallTile_Final6
+    400032: WallTile_Final7
+    400034: WallTile_Final8
+    400036: WallTile_Final9
+    400038: WindowTileWall1
+    400040: WindowTileWall2
+    2100000: Edgeborder
+    2100002: lambert1
+    2300000: DoorTileWall
+    2300002: WallLowBorder
+    2300004: WallLowBorder10
+    2300006: WallLowBorder3
+    2300008: WallLowBorder7
+    2300010: WallLowBorder9
+    2300012: WallTile_Final1
+    2300014: WallTile_Final2
+    2300016: WallTile_Final3
+    2300018: WallTile_Final4
+    2300020: WallTile_Final5
+    2300022: WallTile_Final6
+    2300024: WallTile_Final7
+    2300026: WallTile_Final8
+    2300028: WallTile_Final9
+    2300030: WindowTileWall1
+    2300032: WindowTileWall2
+    3300000: DoorTileWall
+    3300002: WallLowBorder
+    3300004: WallLowBorder10
+    3300006: WallLowBorder3
+    3300008: WallLowBorder7
+    3300010: WallLowBorder9
+    3300012: WallTile_Final1
+    3300014: WallTile_Final2
+    3300016: WallTile_Final3
+    3300018: WallTile_Final4
+    3300020: WallTile_Final5
+    3300022: WallTile_Final6
+    3300024: WallTile_Final7
+    3300026: WallTile_Final8
+    3300028: WallTile_Final9
+    3300030: WindowTileWall1
+    3300032: WindowTileWall2
+    4300000: WallLowBorder
+    4300002: WallLowBorder3
+    4300004: WallLowBorder9
+    4300006: WallLowBorder10
+    4300008: WallLowBorder7
+    4300010: WallTile_Final1
+    4300012: WindowTileWall1
+    4300014: WindowTileWall2
+    4300016: WallTile_Final2
+    4300018: WallTile_Final3
+    4300020: WallTile_Final4
+    4300022: WallTile_Final5
+    4300024: WallTile_Final6
+    4300026: WallTile_Final7
+    4300028: WallTile_Final8
+    4300030: WallTile_Final9
+    4300032: DoorTileWall
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -300,7 +110,7 @@ ModelImporter:
       name: lambert1
     second: {fileID: 2100000, guid: dd422b08a1455ba46b74987d14f4a4a3, type: 2}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -333,32 +143,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -367,10 +170,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -380,16 +183,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

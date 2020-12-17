@@ -1,131 +1,49 @@
 fileFormatVersion: 2
 guid: c437488c1aee37a45a45450bfa3c6661
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: GroundTile9
-  - first:
-      1: 100002
-    second: GroundTiles
-  - first:
-      1: 100004
-    second: group
-  - first:
-      1: 100006
-    second: //RootNode
-  - first:
-      1: 100008
-    second: Kitchen
-  - first:
-      1: 100010
-    second: LivingRoom
-  - first:
-      1: 100012
-    second: pasted__GroundTile10
-  - first:
-      1: 100014
-    second: pasted__GroundTile11
-  - first:
-      1: 100016
-    second: pasted__GroundTile57
-  - first:
-      1: 100018
-    second: pasted__GroundTiles
-  - first:
-      1: 100020
-    second: pasted__Kitchen
-  - first:
-      1: 100022
-    second: Stair16
-  - first:
-      4: 400000
-    second: GroundTile9
-  - first:
-      4: 400002
-    second: GroundTiles
-  - first:
-      4: 400004
-    second: group
-  - first:
-      4: 400006
-    second: //RootNode
-  - first:
-      4: 400008
-    second: Kitchen
-  - first:
-      4: 400010
-    second: LivingRoom
-  - first:
-      4: 400012
-    second: pasted__GroundTile10
-  - first:
-      4: 400014
-    second: pasted__GroundTile11
-  - first:
-      4: 400016
-    second: pasted__GroundTile57
-  - first:
-      4: 400018
-    second: pasted__GroundTiles
-  - first:
-      4: 400020
-    second: pasted__Kitchen
-  - first:
-      4: 400022
-    second: Stair16
-  - first:
-      21: 2100000
-    second: lambert1
-  - first:
-      21: 2100002
-    second: lambert11
-  - first:
-      23: 2300000
-    second: GroundTile9
-  - first:
-      23: 2300002
-    second: pasted__GroundTile10
-  - first:
-      23: 2300004
-    second: pasted__GroundTile11
-  - first:
-      23: 2300006
-    second: pasted__GroundTile57
-  - first:
-      23: 2300008
-    second: Stair16
-  - first:
-      33: 3300000
-    second: GroundTile9
-  - first:
-      33: 3300002
-    second: pasted__GroundTile10
-  - first:
-      33: 3300004
-    second: pasted__GroundTile11
-  - first:
-      33: 3300006
-    second: pasted__GroundTile57
-  - first:
-      33: 3300008
-    second: Stair16
-  - first:
-      43: 4300000
-    second: pasted__GroundTile10
-  - first:
-      43: 4300002
-    second: pasted__GroundTile11
-  - first:
-      43: 4300004
-    second: pasted__GroundTile57
-  - first:
-      43: 4300006
-    second: GroundTile9
-  - first:
-      43: 4300008
-    second: Stair16
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: GroundTile9
+    100002: GroundTiles
+    100004: group
+    100006: //RootNode
+    100008: Kitchen
+    100010: LivingRoom
+    100012: pasted__GroundTile10
+    100014: pasted__GroundTile11
+    100016: pasted__GroundTile57
+    100018: pasted__GroundTiles
+    100020: pasted__Kitchen
+    100022: Stair16
+    400000: GroundTile9
+    400002: GroundTiles
+    400004: group
+    400006: //RootNode
+    400008: Kitchen
+    400010: LivingRoom
+    400012: pasted__GroundTile10
+    400014: pasted__GroundTile11
+    400016: pasted__GroundTile57
+    400018: pasted__GroundTiles
+    400020: pasted__Kitchen
+    400022: Stair16
+    2100000: lambert1
+    2100002: lambert11
+    2300000: GroundTile9
+    2300002: pasted__GroundTile10
+    2300004: pasted__GroundTile11
+    2300006: pasted__GroundTile57
+    2300008: Stair16
+    3300000: GroundTile9
+    3300002: pasted__GroundTile10
+    3300004: pasted__GroundTile11
+    3300006: pasted__GroundTile57
+    3300008: Stair16
+    4300000: pasted__GroundTile10
+    4300002: pasted__GroundTile11
+    4300004: pasted__GroundTile57
+    4300006: GroundTile9
+    4300008: Stair16
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -138,7 +56,7 @@ ModelImporter:
       name: lambert11
     second: {fileID: 2100000, guid: 47c08b2c3b8ee1049803835547e01c99, type: 2}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -171,32 +89,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -205,10 +116,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -218,16 +129,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
