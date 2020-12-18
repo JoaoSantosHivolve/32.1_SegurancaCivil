@@ -5,7 +5,7 @@ public class DamageableObject_Overtime : DamageableObject
     [Header("Overtime Properties")]
     public float timeToDamage;
 
-    private new void Start()
+    protected override void Start()
     {
         base.Start();
 

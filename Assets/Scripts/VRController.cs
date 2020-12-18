@@ -21,10 +21,14 @@ public class VRController : MonoBehaviour
 
     public bool isWalking;
 
+    private HeadCollisionFadeoutBehaviour m_HeadCollision;
+
+
     private void Start()
     {
         m_CameraRig = SteamVR_Render.Top().origin;
         m_Head = SteamVR_Render.Top().head;
+        m_HeadCollision = GetComponent<HeadCollisionFadeoutBehaviour>();
     }
 
     private void Update()
@@ -76,15 +80,14 @@ public class VRController : MonoBehaviour
         return Quaternion.Euler(orientationEuler);
     }
 
-
     private void HandleHeight()
     {
-        var headHeight = Mathf.Clamp(m_Head.localPosition.y, 0.1f, 2);
-        m_CharacterController.height = headHeight;
+        var headHeight = Mathf.Clamp(m_Head.localPosition.y, 0.05f, m_HeadCollision.isColliding ? m_HeadCollision.collidingHeight - 0.10f : 2);
+
+        m_CharacterController.height = headHeight - 0.20f;
 
         var newCenter = Vector3.zero;
         newCenter.y = m_CharacterController.height / 2f;
-        newCenter.y += m_CharacterController.skinWidth;
         newCenter.x = m_Head.localPosition.x;
         newCenter.z = m_Head.localPosition.z;
         newCenter = Quaternion.Euler(0, -transform.eulerAngles.y, 0) * newCenter;
