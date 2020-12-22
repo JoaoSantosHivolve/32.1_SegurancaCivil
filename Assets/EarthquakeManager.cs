@@ -25,6 +25,8 @@ public class EarthquakeManager : MonoBehaviour
     public DamageableObjectsManager damageableObjectsManager;
     [Header("Animated Objects Components")]
     public AnimatedEarthquakeObjectsManager animatedEarthquakeObjectsManager;
+    [Header("Particles Components")]
+    public EarthquakeParticlesManager particlesManager;
 
     private void Awake()
     {
@@ -58,6 +60,7 @@ public class EarthquakeManager : MonoBehaviour
         StartCoroutine(soundZonesManager.EarthquakeEffect(duration));
         StartCoroutine(damageableObjectsManager.DamageObjects(duration));
         StartCoroutine(animatedEarthquakeObjectsManager.EarthquakeEffect(duration));
+        StartCoroutine(particlesManager.EarthquakeEffect(duration));
     }
 
     public IEnumerator CheckPlayerSurvival()

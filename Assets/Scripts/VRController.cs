@@ -23,7 +23,6 @@ public class VRController : MonoBehaviour
 
     private HeadCollisionFadeoutBehaviour m_HeadCollision;
 
-
     private void Start()
     {
         m_CameraRig = SteamVR_Render.Top().origin;
