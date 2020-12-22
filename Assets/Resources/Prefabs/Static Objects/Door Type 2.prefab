@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 438922044466974710}
   m_Layer: 11
   m_Name: Grabable Handler
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 438922044708897783}
   m_Layer: 11
   m_Name: Grabable Handler
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 438922044742684696}
   m_Layer: 12
   m_Name: Movable Door
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -626,7 +626,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -1, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 2.4510689, y: 0.88064086, z: 1.1334753}
+  m_ConnectedAnchor: {x: -1.4110464, y: 0.946983, z: -6.1626015}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 1500791317523946517}
   m_Layer: 12
   m_Name: BolaFechadura1
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -794,7 +794,7 @@ GameObject:
   - component: {fileID: 1500791317523946523}
   m_Layer: 12
   m_Name: BolaFechadura
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -919,7 +919,7 @@ GameObject:
   - component: {fileID: 1500791317526201046}
   m_Layer: 12
   m_Name: BaseFechadura
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -998,7 +998,7 @@ GameObject:
   - component: {fileID: 1500791317524299838}
   m_Layer: 12
   m_Name: FechaduraInt
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1032,7 +1032,7 @@ GameObject:
   - component: {fileID: 5055214999573098911}
   m_Layer: 12
   m_Name: IntDoor
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1113,10 +1113,10 @@ GameObject:
   - component: {fileID: 5055214999573098881}
   m_Layer: 12
   m_Name: IntDoorBorder
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5055214999574868835
 Transform:
@@ -1194,10 +1194,10 @@ GameObject:
   - component: {fileID: 5055214999573098883}
   m_Layer: 12
   m_Name: IntDoorSuport
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5055214999574868837
 Transform:
@@ -1275,10 +1275,10 @@ GameObject:
   - component: {fileID: 2641644712663345085}
   m_Layer: 0
   m_Name: Door Type 2
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5055214999574868839
 Transform:
@@ -1287,7 +1287,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5055214999575031623}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 2.4510689, y: 1.8806409, z: 1.5334754}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1296,7 +1296,7 @@ Transform:
   - {fileID: 5055214999574868837}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!82 &2105655797541427814
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1425,7 +1425,7 @@ GameObject:
   - component: {fileID: 5055214999573098903}
   m_Layer: 12
   m_Name: DoorGlass
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1506,7 +1506,7 @@ GameObject:
   - component: {fileID: 5055214999573098905}
   m_Layer: 12
   m_Name: hinge1
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1587,7 +1587,7 @@ GameObject:
   - component: {fileID: 5055214999573098907}
   m_Layer: 12
   m_Name: hinge7
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1668,7 +1668,7 @@ GameObject:
   - component: {fileID: 5055214999573098909}
   m_Layer: 12
   m_Name: hinge8
-  m_TagString: Untagged
+  m_TagString: Safe Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

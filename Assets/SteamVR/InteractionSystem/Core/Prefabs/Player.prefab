@@ -365,7 +365,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d4a62d4170155a428907edbc60f4cc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeout: {fileID: 0}
   isColliding: 0
   collidingHeight: 0
 --- !u!1 &109154
@@ -712,7 +711,7 @@ Camera:
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!114 &11450526
