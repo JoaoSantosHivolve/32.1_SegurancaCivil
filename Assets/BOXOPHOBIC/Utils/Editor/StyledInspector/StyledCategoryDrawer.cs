@@ -1,28 +1,3 @@
-﻿// Cristian Pop - https://boxophobic.com/
-
-using UnityEngine;
-using UnityEditor;
-using Boxophobic.Constants;
-
-namespace Boxophobic.StyledGUI
-{
-    [CustomPropertyDrawer(typeof(StyledCategory))]
-    public class StyledCategoryAttributeDrawer : PropertyDrawer
-    {
-        StyledCategory a;
-
-        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
-        {
-            a = (StyledCategory)attribute;
-
-            GUI.enabled = true;
-
-            StyledGUI.DrawInspectorCategory(position, a.category);
-        }
-
-        public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
-        {
-            return 40;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0a452157790461c12e6af2f019910b549e616e912664f1780e08c37cb7e8c04
+size 730

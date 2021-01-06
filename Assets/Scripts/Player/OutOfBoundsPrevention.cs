@@ -1,17 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class OutOfBoundsPrevention : MonoBehaviour
-{
-    private void Update()
-    {
-        if(transform.position.y <= 0)
-        {
-            Debug.Log("Transform Pos = " + transform.position);
-            var pos = transform.position;
-            transform.position = new Vector3(pos.x, 0.5f, pos.z);
-            Debug.Log("Transform New Pos = " + transform.position);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fbdcb6fa832819bab08823f366a86eb50e52e8f436566a3f93f328cfe939db6
+size 474

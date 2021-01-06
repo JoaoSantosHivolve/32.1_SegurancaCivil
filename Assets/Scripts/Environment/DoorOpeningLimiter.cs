@@ -1,20 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class DoorOpeningLimiter : MonoBehaviour
-{
-    public Vector3 rotation;
-
-    // Update is called once per frame
-    void Update()
-    {
-        var rot = transform.eulerAngles;
-        var rotY = rot.y;
-        if (rotY <= -80) rotY = -80;
-        if (rotY >= 80) rotY = 80;
-
-        transform.localEulerAngles = new Vector3(rot.x, rotY, rot.z);
-        transform.localPosition = new Vector3(0.4f, 0, 0);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6771791ad2b4f82b746bfa11b03edeeab1cd7f4e335a696270eda5de0e55d807
+size 503

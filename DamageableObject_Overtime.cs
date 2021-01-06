@@ -1,25 +1,3 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
-
-public class DamageableObject_Overtime : DamageableObject
-{
-    private void Start()
-    {
-        base.Start();
-
-        m_Manager = DamageableObjectsManager.Instance;
-        m_Manager.AddObject(this);
-    }
-
-    public void DamageObject()
-    {
-        foreach (var r in renderersToChange)
-        {
-            r.materials = new Material[] { m_Manager.GetMaterial(type), r.material };
-        }
-
-        source.clip = m_Manager.GetSound(type);
-        source.spatialBlend = 1;
-        source.Play();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd0232986d0dad4e63991ff7c41a097dcb8d3e4ae700618ce2180370cf45b97a
+size 569

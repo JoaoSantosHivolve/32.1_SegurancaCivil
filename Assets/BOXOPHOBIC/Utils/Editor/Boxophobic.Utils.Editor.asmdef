@@ -1,16 +1,3 @@
-{
-    "name": "Boxophobic.Utils.Editor",
-    "references": [
-        "Boxophobic.Utils.Scripts"
-    ],
-    "optionalUnityReferences": [],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:274f5da5c22b147139bb73e84488563880e5483c32fe27da459e56474417b865
+size 369
