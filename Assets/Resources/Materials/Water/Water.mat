@@ -30,11 +30,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Depth: 1.24
-    - _Displacement: -0.04
+    - _Displacement: -0.02
     - _NormalStrenght: 0.25
     - _Smoothness: 0.52
     - _Strength: 0.293
+    - _WhiteStrenght: -0.068
     m_Colors:
     - _DeepColor: {r: 0.018912422, g: 0.7851801, b: 0.8018868, a: 0.9019608}
     - _ShallowColor: {r: 0, g: 1, b: 0.98944926, a: 0.69803923}
+    - _WaterCollision: {r: 16, g: 16, b: 16, a: 1}
   m_BuildTextureStacks: []
