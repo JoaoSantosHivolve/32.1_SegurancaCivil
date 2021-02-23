@@ -1,16 +1,3 @@
-{
-  "source": "Unity",
-  "applications": [
-    {
-      "app_key": "application.generated.unity.segurancacivil.exe",
-      "launch_type": "url",
-      "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\Lucas\\Documents\\_UnityProjects\\32.1_SegurancaCivil\\Assets\\StreamingAssets\\SteamVR\\actions.json",
-      "strings": {
-        "en_us": {
-          "name": "Seguranca Civil [Testing]"
-        }
-      }
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:27db14564fcd81aa9ce72c3c3068c1dd3e7cd2f63fecf8aa27e299f9135eb801
+size 435
