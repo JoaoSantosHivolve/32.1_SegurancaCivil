@@ -1,20 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class FollowPhysics : MonoBehaviour
-{
-    public Transform target;
-    Rigidbody rb;
-    // Start is called before the first frame update
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
-
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        rb.MovePosition(target.transform.position);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:74bfc06c6572c7268a9dc708fd0ffc44b1962d4d6a4917ca6e96537959e031de
+size 426
